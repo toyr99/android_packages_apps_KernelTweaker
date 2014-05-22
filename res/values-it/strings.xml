@@ -6,12 +6,12 @@
     <string name="hello_world">Ciao mondo!</string>
 
     <!-- Custom Strings -->
-    <string name="blur_radius">Blur Radius</string>
-    <string name="apply">Apply</string>
-    <string name="title">Title</string>
-    <string name="summary">Summary</string>
+    <string name="blur_radius">Macchia</string>
+    <string name="apply">Applica</string>
+    <string name="title">Titolo</string>
+    <string name="summary">Sommario</string>
     <string name="onehundred_mb">100 Mb</string>
-    <string name="medium_text">Medium Text</string>
+    <string name="medium_text">Testo medio</string>
     <string name="summaryggg">summaryggg</string>
     <string name="empty">This folder is Empty!</string>
     <string name="qqq">qqq</string>
@@ -45,28 +45,28 @@
 
     <string-array name="menu_entries">
         <item>--Informazioni Dispositivo</item>
-        <item>Stayo CPU</item>
+        <item>Stato CPU</item>
         <item>Info CPU</item>
         <item>--Parametri SoC</item>
         <item>Parametri Cpu</item>
         <item>Parametri Gpu</item>
-        <item>UV Table</item>
-        <item>--Kernel Params</item>
-        <item>Tweaks</item>
-        <item>Low Memory Killer</item>
-        <item>Virtual Machine</item>
-        <item>--Set on boot</item>
-        <item>Review Items</item>
-        <item>--Utilities</item>
-        <item>File Manager</item>
+        <item>Tavola UV</item>
+        <item>--Parametri Kernel</item>
+        <item>Tweak</item>
+        <item>Bassa memoria</item>
+        <item>Macchina virtuale</item>
+        <item>--Imposta all\'avvio</item>
+        <item>Anteprima</item>
+        <item>--Strumenti</item>
+        <item>File manager</item>
         <item>Backup</item>
-        <item>Recovery actions</item>
+        <item>Azioni recovery</item>
         <item>--Extra</item>
-        <item>Build.prop mods</item>
-        <item>Init.d tweaks</item>
-        <item>--App Settings/info</item>
-        <item>Settings</item>
-        <item>Information</item>
+        <item>Mod build.prop</item>
+        <item>Tweak init.d</item>
+        <item>--Impostazioni app/info</item>
+        <item>Impostazioni</item>
+        <item>Informazioni</item>
     </string-array>
     <string-array name="menu_descs">
         <item>Frequencies time in state</item>
