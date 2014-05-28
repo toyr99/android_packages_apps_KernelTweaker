@@ -45,18 +45,18 @@
 
     <string-array name="menu_entries">
         <item>--Informazioni Dispositivo</item>
-        <item>Stayo CPU</item>
+        <item>Stato CPU</item>
         <item>Info CPU</item>
         <item>--Parametri SoC</item>
-        <item>Parametri Cpu</item>
-        <item>Parametri Gpu</item>
-        <item>UV Table</item>
+        <item>Parametri CPU</item>
+        <item>Parametri GPU</item>
+        <item>Undervolt</item>
         <item>--Kernel Params</item>
         <item>Tweaks</item>
         <item>Low Memory Killer</item>
         <item>Virtual Machine</item>
-        <item>--Set on boot</item>
-        <item>Review Items</item>
+        <item>--Imposta all\'avvio</item>
+        <item>Anteprima</item>
         <item>--Utilities</item>
         <item>File Manager</item>
         <item>Backup</item>
@@ -150,22 +150,22 @@
     <string name="menu_less">-25mV</string>
     <string name="menu_plus">+25mV</string>
     <string name="uv_title">UV Table Values</string>
-    <string name="cpu_max">CPU Max Frequency</string>
-    <string name="cpu_min">CPU Min Frequency</string>
+    <string name="cpu_max">Massima frequenza CPU</string>
+    <string name="cpu_min">Minima frequenza CPU</string>
     <string name="cpu_governor">Governor</string>
     <string name="cpu_hotplug">Hotplug</string>
     <string name="cpu_cpuquiet_title">Cpuquiet Governor</string>
     <string name="cpu_cpuquiet_desc">This governor controls which of the CPU cores are available and when.</string>
-    <string name="cpu_advanced">Advanced Options</string>
-    <string name="cpu_adv_gov_title">Governor Tuning</string>
-    <string name="cpu_adv_gov_desc">Fine tune governor parameters</string>
+    <string name="cpu_advanced">Opzioni avanzate</string>
+    <string name="cpu_adv_gov_title">Impostazioni governor</string>
+    <string name="cpu_adv_gov_desc">Parametri del governor in uso</string>
     <string name="cpu_adv_quiet_title">Cpuquiet Governor Tuning</string>
     <string name="cpu_adv_quiet_desc">Fine tune cpuquiet governor parameters</string>
     <string name="gov_title">Tweakable Governor Values</string>
-    <string name="gpu_category">GPU parameters</string>
-    <string name="gpu_freq_title">GPU Max Frequency</string>
-    <string name="gpu_freq_desc">Set GPU maximum frequency</string>
-    <string name="menu_glossary">GLOSSARY</string>
+    <string name="gpu_category">Parametri GPU</string>
+    <string name="gpu_freq_title">Frequenza massima GPU</string>
+    <string name="gpu_freq_desc">Imposta frequenza massima dellaGPU</string>
+    <string name="menu_glossary">GLOSSARIO</string>
 
     <string-array name="glo_cpu_titles">
         <item>Max Frequency</item>
@@ -510,10 +510,10 @@ causes the kernel to prefer to reclaim dentries and inodes.</item>
     <string name="sob">Apply automatically on boot</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="cpu_info_list_header">Core Status</string>
-    <string name="cpu_speed_header">Core Limits</string>
-    <string name="other_settings_header">Other settings</string>
-    <string name="core_offline">Offline</string>
+    <string name="cpu_info_list_header">Stato core</string>
+    <string name="cpu_speed_header">Limiti core</string>
+    <string name="other_settings_header">Altre impostazioni</string>
+    <string name="core_offline">Spento</string>
     <string name="core">Core</string>
 
     <!-- Other settings -->
@@ -641,17 +641,17 @@ causes the kernel to prefer to reclaim dentries and inodes.</item>
     <string name="swappiness_title">Swappiness</string>
     <string name="vfs_title">VFS cache pressure</string>
     <!-- Time in state -->
-    <string name="time_in_state">TIME IN STATE</string>
+    <string name="time_in_state">FREQUENZA E TEMPO</string>
     <string name="unused_cpu_states">UNUSED CPU STATES</string>
-    <string name="total_state_time">TOTAL STATE TIME</string>
+    <string name="total_state_time">TEMPO TOTALE IN USO</string>
     <string name="no_states_file_found">No states file found. Are you sure your phone is
         compatible?\n\nIf you are running a custom ROM or kernel, try
         contacting its developer to inform him that the states file is not
         readable.</string>
-    <string name="deep_sleep">"Deep Sleep"</string>
+    <string name="deep_sleep">"Deep sleep"</string>
     <!-- CPU info -->
-    <string name="kernel_info">LINUX KERNEL INFORMATION</string>
-    <string name="cpu_info">CPU INFORMATION</string>
+    <string name="kernel_info">INFORMAZIONI KERNEL LINUX</string>
+    <string name="cpu_info">INFORMAZIONI CPU</string>
     <string name="mem_info">MEMORY INFORMATION</string>
     <string name="first_run_title">First check for root</string>
     <string name="su_success_title">Success!</string>
